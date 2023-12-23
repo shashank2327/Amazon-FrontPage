@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    font-size: Arial;
+    border: border-box;
+}
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo > img {
+    height: 50px;
+    width: 100px;
+    margin-top: 4px;
+}
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+.add-first {
+    font-size: 0.85rem;
+    color: #CCCCCC;
+    margin-left: 16px;
+}
+.add-sec {
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+.add-icon {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.nav-address {
+    padding: 10px;
+}
+.nav-search {
+    display: flex;
+    width: 840px;
+    height: 36px;
+    border-radius: 4px;
+}
+.nav-search:hover {
+    border: 2px solid orange;
+}
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: centre;
+    font-size: 12px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input {
+    width: 795px;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon {
+    padding: 10px;
+    background-color: rgb(230, 154, 167);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+}
+
+.sign-in {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-first {
+    font-size: 12px;
+}
+.sign-second {
+    font-size: 14px;
+    font-weight: 700;
+}
+.sign-in {
+    padding: 10px;
+}
+
+.nav-cart {
+    font: 0.85rem;
+    font-weight: 700px;
+    padding: 10px;
+}
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 0.85rem;
+}
+
+.panel-ops {
+    display: flex;
+    gap: 20px;
+    width: 80%;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.hero-section {
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}   
+.hero-msg {
+    background-color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.95rem;
+    width: 95%;
+    margin-bottom: 25px;
+}
+.hero-msg a {
+    color: #007185;
+}
+
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box {
+    height: 450px;
+    width: 23%;
+    background-color: white;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 10px solid #e2e7e6;
+}
+
+.box-image {
+    display: flex;
+    justify-content: center;
+}
+.box-image > img {
+    width: 90%;
+    height: 320px;
+}
+.box-heading {
+    padding: 20px;
+}
+.see-box{
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.see-box > a {
+    color: #007185;
+}
+
+.foot-panel1 {
+    font-size: 13px;
+    padding: 15px 0;
+    text-align: center;
+    background-color: #37475a;
+    color: white;
+    font-weight: 500;
+}
+.foot-panel2 {
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    background-color: #232F3E;
+}
+
+.para {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    font-size: 14px;
+    color: #DDDDDD;
+}
+.first-child {
+    margin-bottom: 8px;
+    font-size: 16px;
+    margin-top: 40px;
+    font-weight: 600;
+    color: white;
+}
+.para1 {
+    margin-left: 185px;
+}
+.para4 {
+    margin-right: 185px;
+}
+.foot-panel3 {
+    background-color: #232F3E;
+    color: white;
+    border-top: 0.2px solid white;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+}
+.icon-text {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 40px;
+}
+.it {
+    border: 0.5px solid white;
+    padding: 7px;
+    border-radius: 4px;
+    font-size: 13px;
+    display: flex;
+    gap: 10px;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-right: 40px;
+}
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.pages {
+    padding-top: 25px;
+}
+
+.copyright {
+    padding-top: 5px;
+}
